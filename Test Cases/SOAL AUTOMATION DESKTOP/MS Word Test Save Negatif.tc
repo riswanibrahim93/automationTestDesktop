@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MS Word Test Save Negatif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0e1d2ca-2a49-468b-9fc8-34894143270a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c1c89a7-f148-4533-b8f2-89b1c49f2a33</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'hallohelloohai.docx'</defaultValue>
+      <description></description>
+      <id>7c1c89a7-f148-4533-b8f2-89b1c49f2a33</id>
+      <masked>false</masked>
+      <name>strFileName</name>
+   </variable>
+</TestCaseEntity>

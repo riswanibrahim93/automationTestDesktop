@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MS Word Test Save Positif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b05c8832-3aca-45ac-b846-42c771d6d8f0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>709fb398-2957-4b04-9364-9d72ef41ff78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7458c4a9-4289-4ee4-8daf-c5ac6e0e7fce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f24b0339-5d26-46d4-8e57-71d3ad99cddc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test Word'</defaultValue>
+      <description></description>
+      <id>709fb398-2957-4b04-9364-9d72ef41ff78</id>
+      <masked>false</masked>
+      <name>strInput1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Word2'</defaultValue>
+      <description></description>
+      <id>7458c4a9-4289-4ee4-8daf-c5ac6e0e7fce</id>
+      <masked>false</masked>
+      <name>strInput2</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestTest'</defaultValue>
+      <description></description>
+      <id>f24b0339-5d26-46d4-8e57-71d3ad99cddc</id>
+      <masked>false</masked>
+      <name>strInput3</name>
+   </variable>
+</TestCaseEntity>

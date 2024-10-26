@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ms Word Suite Test" time="65.847" tests="2" failures="0" errors="0">
+   <testsuite name="Ms Word Suite Test" tests="2" failures="0" errors="0" time="65.847" skipped="0" timestamp="26-10-2024T14:36:20" hostname="Ukhty - DESKTOP-IENTL1E" id="Test Suites/SOAL AUTOMATION DESKTOP/Ms Word Suite Test">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Ukhty\\git\\automationTestDesktop\\Reports\\20241026_143614\\SOAL AUTOMATION DESKTOP\\Ms Word Suite Test\\20241026_143614"/>
+         <property name="logFiles" value="C:\\Users\\Ukhty\\git\\automationTestDesktop\\Reports\\20241026_143614\\SOAL AUTOMATION DESKTOP\\Ms Word Suite Test\\20241026_143614\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ukhty - DESKTOP-IENTL1E"/>
+         <property name="hostAddress" value="50.50.50.71"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+      </properties>
+      <testcase name="Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif" time="34.774" classname="Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif" status="PASSED">
+         <system-out><![CDATA[26-10-2024T14:36:20 - [TEST_CASE][PASSED] - Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif: Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif
+
+26-10-2024T14:36:21 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE", ""): The application at location: C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE started.
+
+26-10-2024T14:36:21 - [MESSAGE][INFO] - Starting application C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE on the local machine at address http://127.0.0.1:4723
+
+26-10-2024T14:36:25 - [MESSAGE][PASSED] - The application at location: C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE started.
+
+26-10-2024T14:36:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+26-10-2024T14:36:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+26-10-2024T14:36:30 - [TEST_STEP][PASSED] - click(findWindowsObject("msWordObject/Button")): Click on element: Object Repository/msWordObject/Button succesfully
+
+26-10-2024T14:36:31 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button
+
+26-10-2024T14:36:32 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button succesfully
+
+26-10-2024T14:36:32 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/msWordObject/Pane"), strInput1): Text Test is set
+
+26-10-2024T14:36:33 - [MESSAGE][PASSED] - Text Test is set
+
+26-10-2024T14:36:33 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(1)")): Click on element: Object Repository/msWordObject/Button(1) succesfully
+
+26-10-2024T14:36:34 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(1)
+
+26-10-2024T14:36:34 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(1) succesfully
+
+26-10-2024T14:36:34 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/msWordObject/Pane"), strInput2): Text Testt is set
+
+26-10-2024T14:36:36 - [MESSAGE][PASSED] - Text Testt is set
+
+26-10-2024T14:36:36 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button")): Click on element: Object Repository/msWordObject/Button succesfully
+
+26-10-2024T14:36:37 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button
+
+26-10-2024T14:36:38 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button succesfully
+
+26-10-2024T14:36:38 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(1)")): Click on element: Object Repository/msWordObject/Button(1) succesfully
+
+26-10-2024T14:36:38 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(1)
+
+26-10-2024T14:36:39 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(1) succesfully
+
+26-10-2024T14:36:39 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(2)")): Click on element: Object Repository/msWordObject/Button(2) succesfully
+
+26-10-2024T14:36:42 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(2)
+
+26-10-2024T14:36:43 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(2) succesfully
+
+26-10-2024T14:36:43 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/msWordObject/Pane"), strInput3): Text Testttt is set
+
+26-10-2024T14:36:44 - [MESSAGE][PASSED] - Text Testttt is set
+
+26-10-2024T14:36:44 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(3)")): Click on element: Object Repository/msWordObject/Button(3) succesfully
+
+26-10-2024T14:36:44 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(3)
+
+26-10-2024T14:36:45 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(3) succesfully
+
+26-10-2024T14:36:45 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/MenuItem(1)")): Click on element: Object Repository/msWordObject/MenuItem(1) succesfully
+
+26-10-2024T14:36:45 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/MenuItem(1)
+
+26-10-2024T14:36:46 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/MenuItem(1) succesfully
+
+26-10-2024T14:36:46 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(4)")): Click on element: Object Repository/msWordObject/Button(4) succesfully
+
+26-10-2024T14:36:54 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(4)
+
+26-10-2024T14:36:54 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(4) succesfully
+
+26-10-2024T14:36:54 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+26-10-2024T14:36:55 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif" time="30.661" classname="Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif" status="PASSED">
+         <system-out><![CDATA[26-10-2024T14:36:55 - [TEST_CASE][PASSED] - Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif: Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif
+
+26-10-2024T14:36:55 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE", ""): The application at location: C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE started.
+
+26-10-2024T14:36:55 - [MESSAGE][INFO] - Starting application C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE on the local machine at address http://127.0.0.1:4723
+
+26-10-2024T14:36:57 - [MESSAGE][PASSED] - The application at location: C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE started.
+
+26-10-2024T14:36:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+26-10-2024T14:37:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+26-10-2024T14:37:02 - [TEST_STEP][PASSED] - click(findWindowsObject("msWordObject/Button")): Click on element: Object Repository/msWordObject/Button succesfully
+
+26-10-2024T14:37:02 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button
+
+26-10-2024T14:37:03 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button succesfully
+
+26-10-2024T14:37:03 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/msWordObject/Pane"), strInput1): Text Test2 is set
+
+26-10-2024T14:37:04 - [MESSAGE][PASSED] - Text Test2 is set
+
+26-10-2024T14:37:04 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(1)")): Click on element: Object Repository/msWordObject/Button(1) succesfully
+
+26-10-2024T14:37:05 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(1)
+
+26-10-2024T14:37:05 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(1) succesfully
+
+26-10-2024T14:37:05 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/msWordObject/Pane"), strInput2): Text Testtttt3 is set
+
+26-10-2024T14:37:06 - [MESSAGE][PASSED] - Text Testtttt3 is set
+
+26-10-2024T14:37:06 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button")): Click on element: Object Repository/msWordObject/Button succesfully
+
+26-10-2024T14:37:08 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button
+
+26-10-2024T14:37:08 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button succesfully
+
+26-10-2024T14:37:08 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(1)")): Click on element: Object Repository/msWordObject/Button(1) succesfully
+
+26-10-2024T14:37:09 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(1)
+
+26-10-2024T14:37:09 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(1) succesfully
+
+26-10-2024T14:37:09 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(2)")): Click on element: Object Repository/msWordObject/Button(2) succesfully
+
+26-10-2024T14:37:13 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(2)
+
+26-10-2024T14:37:13 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(2) succesfully
+
+26-10-2024T14:37:13 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/msWordObject/Pane"), strInput3): Text Testttt4 is set
+
+26-10-2024T14:37:14 - [MESSAGE][PASSED] - Text Testttt4 is set
+
+26-10-2024T14:37:14 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(3)")): Click on element: Object Repository/msWordObject/Button(3) succesfully
+
+26-10-2024T14:37:16 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(3)
+
+26-10-2024T14:37:16 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(3) succesfully
+
+26-10-2024T14:37:16 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/MenuItem(1)")): Click on element: Object Repository/msWordObject/MenuItem(1) succesfully
+
+26-10-2024T14:37:16 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/MenuItem(1)
+
+26-10-2024T14:37:17 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/MenuItem(1) succesfully
+
+26-10-2024T14:37:17 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/msWordObject/Button(4)")): Click on element: Object Repository/msWordObject/Button(4) succesfully
+
+26-10-2024T14:37:25 - [MESSAGE][INFO] - Clicking on element: Object Repository/msWordObject/Button(4)
+
+26-10-2024T14:37:25 - [MESSAGE][PASSED] - Click on element: Object Repository/msWordObject/Button(4) succesfully
+
+26-10-2024T14:37:25 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+26-10-2024T14:37:26 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-10-2024T14:36:20 - [TEST_SUITE][PASSED] - Ms Word Suite Test: Test Cases/SOAL AUTOMATION DESKTOP/MS Word Test Save Positif]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
